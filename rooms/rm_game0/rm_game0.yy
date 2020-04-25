@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_game",
+    "name": "rm_game0",
     "id": "48b11a95-976c-47b0-8191-8a5314cdd01c",
     "creationCodeFile": "",
     "inheritCode": false,

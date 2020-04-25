@@ -1,18 +1,28 @@
 {
-    "id": "6f4edda0-f901-477e-b767-b3fc5f08f7f1",
+    "id": "408d1218-0939-4f0f-8022-d03f47984046",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_Gameplay",
+    "name": "obj_TrapDoor",
     "eventList": [
         {
-            "id": "4cfa6300-0eca-47e5-a0b4-23482fff1187",
+            "id": "4b60c173-e7e9-4ff3-b0d8-f54c4a974e77",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "6f4edda0-f901-477e-b767-b3fc5f08f7f1"
+            "eventtype": 3,
+            "m_owner": "408d1218-0939-4f0f-8022-d03f47984046"
+        },
+        {
+            "id": "3ae4034d-8ca3-4965-9675-b33c278c42be",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "076995f1-4618-4a29-9379-491bd2c18ab5",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "408d1218-0939-4f0f-8022-d03f47984046"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "889cd6b8-5055-4f8c-8be6-42e92f298f4b",
     "visible": true
 }

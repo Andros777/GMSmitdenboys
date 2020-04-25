@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "062054e4-c8d7-4e25-985f-23ef6edfc959",
+            "Value": {
+                "id": "2e168000-7ae5-45a6-bcae-8fa9f7196d70",
+                "resourcePath": "objects\\obj_Key\\obj_Key.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "076995f1-4618-4a29-9379-491bd2c18ab5",
             "Value": {
                 "id": "fa150dd9-0373-442f-8ed1-edc6f6423127",
@@ -55,11 +63,27 @@
             }
         },
         {
+            "Key": "1c7d496f-b218-4ecc-94c0-592d327951ec",
+            "Value": {
+                "id": "647c891f-4fa8-4416-968b-da86f293d3bf",
+                "resourcePath": "rooms\\rm_game2\\rm_game2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "3ccf474a-0c1a-40a6-99a0-0f27f3c13f52",
             "Value": {
                 "id": "688f5abd-d1c1-48b7-b371-956f1e9eeacb",
                 "resourcePath": "views\\3ccf474a-0c1a-40a6-99a0-0f27f3c13f52.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "408d1218-0939-4f0f-8022-d03f47984046",
+            "Value": {
+                "id": "6a3e7f82-adcf-4a46-a791-1296feb2d829",
+                "resourcePath": "objects\\obj_TrapDoor\\obj_TrapDoor.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -82,7 +106,7 @@
             "Key": "48b11a95-976c-47b0-8191-8a5314cdd01c",
             "Value": {
                 "id": "684e82fa-6846-4167-bc2a-1b3afa01a7fa",
-                "resourcePath": "rooms\\rm_game\\rm_game.yy",
+                "resourcePath": "rooms\\rm_game0\\rm_game0.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -116,6 +140,14 @@
                 "id": "23b8e651-40b0-4a7b-b21d-b1b61d6fb8e1",
                 "resourcePath": "views\\74b43fb7-582b-440e-a960-1e70d71be6b3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "889cd6b8-5055-4f8c-8be6-42e92f298f4b",
+            "Value": {
+                "id": "25f2a721-72a7-44ab-804b-5abfb5b59dcd",
+                "resourcePath": "sprites\\spr_TrapDoor\\spr_TrapDoor.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -175,6 +207,14 @@
             }
         },
         {
+            "Key": "c89f919b-e18d-4909-b803-2fe8bcc1b00e",
+            "Value": {
+                "id": "fba2decd-48b6-4f85-b96c-c771613fb3df",
+                "resourcePath": "sprites\\spr_Key\\spr_Key.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "5a163320-ade8-4b2f-b22f-8675f0e8229d",
@@ -188,6 +228,22 @@
                 "id": "136562d3-011d-401d-95e8-6db3985b83fd",
                 "resourcePath": "views\\d01151f5-ee57-4c62-a43a-3318a1aa0d34.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d62e2d00-4582-4ba3-831a-e6b96868672e",
+            "Value": {
+                "id": "0d60f764-5c82-4c98-a4e3-c4df16414686",
+                "resourcePath": "views\\48b11a95-976c-47b0-8191-8a5314cdd01c-room.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e467136f-40c0-4e26-a154-60555ac7db02",
+            "Value": {
+                "id": "38a4addf-35ac-428a-8a05-dc5fec1b54c8",
+                "resourcePath": "rooms\\rm_game1\\rm_game1.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
