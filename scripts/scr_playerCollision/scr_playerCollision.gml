@@ -1,7 +1,7 @@
 var collisioncheck = false;
 
-if (place_meeting(x+horizontalspeed,y,obj_Wall1)){
-	while (!place_meeting(x+sign(horizontalspeed),y,obj_Wall1)){
+if (place_meeting(x+horizontalspeed,y,obj_Collider)){
+	while (!place_meeting(x+sign(horizontalspeed),y,obj_Collider)){
 		x += sign(horizontalspeed);
 	}
 	horizontalspeed = 0;
@@ -10,8 +10,8 @@ if (place_meeting(x+horizontalspeed,y,obj_Wall1)){
 
 x += horizontalspeed;
 
-if (place_meeting(x,y+verticalspeed,obj_Wall1)){
-	while (!place_meeting(x,y+sign(verticalspeed),obj_Wall1)){
+if (place_meeting(x,y+verticalspeed,obj_Collider)){
+	while (!place_meeting(x,y+sign(verticalspeed),obj_Collider)){
 		y += sign(verticalspeed);
 	}
 	verticalspeed = 0;

@@ -2,7 +2,7 @@
     "id": "cd44bed3-8916-40d2-bdce-ec08b56f1349",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprite6",
+    "name": "spr_Apple",
     "For3D": false,
     "HTile": false,
     "VTile": false,

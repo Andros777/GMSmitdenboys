@@ -10,7 +10,7 @@ var collided = scr_playerCollision();
 //update player sprite
 sprite_index = spriteRoll;
 var totalFrames = sprite_get_number(sprite_index) / 4;
-image_index = (CARDINAL_DIR * totalFrames) + ((1 - (moveDistanceRemaining / rollingdistance)) * totalFrames);
+image_index = (CARDINAL_DIR * totalFrames) + min(((1 - (moveDistanceRemaining / rollingdistance)) * (totalFrames)), totalFrames - 1);
 
 //change state
 if (moveDistanceRemaining <= 0){
