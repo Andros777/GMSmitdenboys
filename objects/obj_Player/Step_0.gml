@@ -1,29 +1,28 @@
 /// @description Checks for movement input.
 // You can write your code in this editor
-key_right = keyboard_check(ord("D"))
-key_left = keyboard_check(ord("A"))
-key_up = keyboard_check(ord("W"))
-key_down = keyboard_check(ord("S"))
+key_right = keyboard_check(ord("D"));
+key_left = keyboard_check(ord("A"));
+key_up = keyboard_check(ord("W"));
+key_down = keyboard_check(ord("S"));
 
-var horizontalmove = key_right - key_left;
-var verticalmove = key_up - key_down;
+inputDirection = point_direction(0, 0, key_right - key_left, key_down - key_up);
+inputMagnitude = (key_right - key_left != 0) || (key_down - key_up != 0);
 
-horizontalspeed = horizontalmove * movementspeed;
-verticalspeed = verticalmove * movementspeed;
+horizontalspeed = lengthdir_x(inputMagnitude * movementspeed, inputDirection);
+verticalspeed = lengthdir_y(inputMagnitude * movementspeed, inputDirection);
 
-if (place_meeting(x+horizontalspeed, y, obj_Wall1)){
-	while (!place_meeting(x+sign(horizontalspeed), y, obj_Wall1)){
-		obj_Player.x += sign(horizontalspeed);
-	}
-	horizontalspeed = 0;
-}
+//player collision checks
 
-if (place_meeting(x, y-verticalspeed, obj_Wall1)){
-	while (!place_meeting(x, y-sign(verticalspeed), obj_Wall1)){
-		obj_Player.x += sign(verticalspeed);
-	}
-	verticalspeed = 0;
-}
+scr_playerCollision()
 
-obj_Player.x += horizontalspeed;
-obj_Player.y -= verticalspeed;
+//update sprite index
+
+var oldSprite = sprite_index;
+if (inputMagnitude != 0){
+	direction = inputDirection;
+	sprite_index = spriteRun;
+} else sprite_index = spriteIdle;
+if (oldSprite != sprite_index) localFrame = 0;
+
+//update image index
+scr_animatePlayerSprite();
