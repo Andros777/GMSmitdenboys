@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "682a51c8-e5b1-4107-be8f-c68c64eae6aa",
+            "Value": {
+                "id": "05aa49bb-224d-446d-b6aa-d7a5139872c9",
+                "resourcePath": "objects\\obj_Apple\\obj_Apple.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6f4edda0-f901-477e-b767-b3fc5f08f7f1",
             "Value": {
                 "id": "09127349-cac0-4164-b1a8-271ef8fd96fa",
@@ -268,6 +276,14 @@
                 "id": "5a163320-ade8-4b2f-b22f-8675f0e8229d",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cd44bed3-8916-40d2-bdce-ec08b56f1349",
+            "Value": {
+                "id": "be9e6cfb-c218-460c-8d79-7eaa197cf992",
+                "resourcePath": "sprites\\sprite6\\sprite6.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
