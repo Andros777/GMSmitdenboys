@@ -1,23 +1,25 @@
 var collisioncheck = false;
 
-if (place_meeting(x+horizontalspeed,y,obj_Collider)){
-	while (!place_meeting(x+sign(horizontalspeed),y,obj_Collider)){
-		x += sign(horizontalspeed);
-	}
+//Horizontal Tiles
+if (tilemap_get_at_pixel(collisionMap, x + horizontalspeed, y)){
+	x -= x mod TILE_SIZE;
+	if (sign(horizontalspeed) == 1) x += TILE_SIZE - 1;
 	horizontalspeed = 0;
 	collisioncheck = true;
 }
 
+//Horizontal Move Commit
 x += horizontalspeed;
 
-if (place_meeting(x,y+verticalspeed,obj_Collider)){
-	while (!place_meeting(x,y+sign(verticalspeed),obj_Collider)){
-		y += sign(verticalspeed);
-	}
+//Vertical Tiles
+if (tilemap_get_at_pixel(collisionMap, x, y + verticalspeed)){
+	y -= y mod TILE_SIZE;
+	if (sign(verticalspeed) == 1) y += TILE_SIZE - 1;
 	verticalspeed = 0;
 	collisioncheck = true;
 }
 
+//Vertical Move COmmit
 y += verticalspeed;
 
 return collisioncheck;

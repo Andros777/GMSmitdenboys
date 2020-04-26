@@ -1,3 +1,5 @@
+//movement
+
 horizontalspeed = lengthdir_x(inputMagnitude * movementspeed, inputDirection);
 verticalspeed = lengthdir_y(inputMagnitude * movementspeed, inputDirection);
 
