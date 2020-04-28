@@ -16,3 +16,8 @@ image_index = (CARDINAL_DIR * totalFrames) + min(((1 - (moveDistanceRemaining / 
 if (moveDistanceRemaining <= 0){
 	state = scr_playerStateFree;
 }
+
+if (collided){
+	state = scr_playerStateFree;
+	scr_ScreenShake(2, 8);
+}

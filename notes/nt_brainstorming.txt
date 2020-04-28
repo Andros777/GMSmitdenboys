@@ -1,0 +1,19 @@
+Creating checkpoint camps every few floors to start deeper (marc sagt lieber nicht)
+
+Maybe inherit one item from your previous character
+
+Underground merchant "moleman" random appearance
+
+Descension and Ascension, descend holes with keys and ascend again with a rope.
+
+Tower layout might be generated once upon run start and stays the same until run ends
+
+Surface shop available at the start of each Descension run. Surface shop has extra hearts and better starting gear on offer.
+
+Ascension can secure accumulated funds for later runs but retires your character.
+Auto Ascension maybe available but at a heavy cost.
+
+Every 10 or so floors is a boss fight during Descension.
+
+At certain floors an artifact will be found and an event (giant worm chasing you) will be triggered,
+proccing an asenscion run to secure the artifact for good. (these usually unlock something once retrieved)

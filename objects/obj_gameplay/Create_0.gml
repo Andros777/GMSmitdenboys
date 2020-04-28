@@ -1,4 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description sets global variables
 global.keydoor = 0;
 global.currentgameroom = room;
+global.gamePaused = false;
