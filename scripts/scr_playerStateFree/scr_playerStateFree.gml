@@ -25,3 +25,26 @@ if (key_roll){
 	state = scr_playerStateRoll;
 	moveDistanceRemaining = rollingdistance;
 }
+
+if (key_activate){
+	//check for an entity to activate, if there is nothing to interact with, do nothing
+	//otherwise, activate the entity. if it is an npc, make it face towards the player
+	
+	var activateX = lengthdir_x(10, direction);
+	var activateY = lengthdir_y(10, direction);
+	activate = instance_position(x+activateX, y+activateY, parent_Entity);
+	
+	//return to free state if there is nothing to interact with
+	if (activate == noone || activate.entityActivateScript == -1){
+		state = scr_playerStateFree;
+	} else {
+		//activate the entity
+		scr_ScriptExecuteArray(activate.entityActivateScript, activate.entityActivateArgs);
+		if (activate.entityNPC){
+			with(activate){
+				direction = point_direction(x, y, other.x, other.y);
+				image_index = CARDINAL_DIR;
+			}
+		}
+	}
+}

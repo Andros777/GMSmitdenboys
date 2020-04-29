@@ -5,16 +5,6 @@
     "name": "obj_Gameplay",
     "eventList": [
         {
-            "id": "4cfa6300-0eca-47e5-a0b4-23482fff1187",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "6f4edda0-f901-477e-b767-b3fc5f08f7f1"
-        },
-        {
             "id": "761d0bee-5917-4d66-9352-036db60888a7",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -52,6 +42,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 2,
             "eventtype": 3,
+            "m_owner": "6f4edda0-f901-477e-b767-b3fc5f08f7f1"
+        },
+        {
+            "id": "f6fd49f0-5998-47a4-9ae2-c60aa0b3d440",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 84,
+            "eventtype": 9,
             "m_owner": "6f4edda0-f901-477e-b767-b3fc5f08f7f1"
         }
     ],

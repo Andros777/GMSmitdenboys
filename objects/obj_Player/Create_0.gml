@@ -1,7 +1,8 @@
 /// @description Sets initial player variables.
 // You can write your code in this editor
 state = scr_playerStateFree;
-stateAttack = AttackSlash;
+lastState = state;
+//stateAttack = AttackSlash;
 
 collisionMap = layer_tilemap_get_id(layer_get_id("Layer_Collider"));
 

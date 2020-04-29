@@ -8,10 +8,10 @@ if (instance_exists(follow)){
 	yTo = follow.y;
 }
 
-//update object position
+//update object position (determine camera follow speed)
 
-x += (xTo - x) / 15;
-y += (yTo - y) / 15;
+x += (xTo - x);
+y += (yTo - y);
 
 
 //keep cam inside room

@@ -10,7 +10,7 @@ if (keyboard_check_pressed(ord("P"))){                 //P to pause (placeholder
 	}
 	else {
 		with (all){
-			image_speed =gamePausedImageSpeed;
+			image_speed = gamePausedImageSpeed;
 		}
 	}
 }
