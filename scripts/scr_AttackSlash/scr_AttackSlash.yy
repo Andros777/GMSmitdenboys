@@ -1,5 +1,5 @@
 {
-    "id": "850ea143-932b-42e3-ac51-7cd8a4dd89d7",
+    "id": "54edf1f7-b29d-4641-8d3a-ed84cb55205b",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "scr_AttackSlash",

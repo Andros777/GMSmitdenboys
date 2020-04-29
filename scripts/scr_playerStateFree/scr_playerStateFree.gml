@@ -20,6 +20,12 @@ if (oldSprite != sprite_index) localFrame = 0;
 //update image index
 scr_animatePlayerSprite();
 
+//attack key logic
+if (key_attack) {
+	state = scr_playerStateAttack;
+	stateAttack = scr_AttackSlash;
+}
+
 //change state
 if (key_roll){
 	state = scr_playerStateRoll;

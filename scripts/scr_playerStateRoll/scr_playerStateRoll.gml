@@ -18,6 +18,7 @@ if (moveDistanceRemaining <= 0){
 }
 
 if (collided){
-	state = scr_playerStateFree;
+	state = scr_playerStateWallBounce;
+	moveDistanceRemaining = distanceWallBounce;
 	scr_ScreenShake(2, 8);
 }
