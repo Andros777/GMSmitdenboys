@@ -12,7 +12,7 @@ scr_dungeonRandomize();
 global.currentRoomList = randomRoomList;
 global.roomCounter = 0;
 global.starterRoom = ds_list_find_value(global.currentRoomList, 0);
-global.nextRoom = ds_list_find_value(global.currentRoomList, (1 + global.roomCounter));
+//global.nextRoom = ds_list_find_value(global.currentRoomList, (1 + global.roomCounter));
 global.keydoor = 0;
 global.gamePaused = false;
 global.textSpeed = .75;
