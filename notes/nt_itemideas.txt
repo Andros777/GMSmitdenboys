@@ -1,0 +1,2 @@
+"The Bar": A literal healthbar. Replaces your hearts with a healthbar. Should work exactly the same apart from
+being a visual gimmick and maybe grating 1 more HP that your maximum hearts would do. Heals you fully.

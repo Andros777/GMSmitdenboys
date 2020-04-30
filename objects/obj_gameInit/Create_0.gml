@@ -9,6 +9,8 @@ scr_dungeonRandomize();
 
 
 //sets global variables
+global.playerHealth = 2.5;
+global.playerHealthMax = 3;
 global.currentRoomList = randomRoomList;
 global.roomCounter = 0;
 global.starterRoom = ds_list_find_value(global.currentRoomList, 0);
