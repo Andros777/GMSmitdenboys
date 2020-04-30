@@ -6,3 +6,5 @@
 #macro RESOLUTION_W 320
 #macro RESOLUTION_H 180
 #macro TEXTBOX_OFFSET 8
+
+#macro ROOM_NUMBER 4

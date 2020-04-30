@@ -1,0 +1,6 @@
+- ability to kill surface shop keeper, allows you to get everything on offer but shopkeeper wont be there for the
+next runs until you complete a certain objective (wait for a new shopkeeper to appear since people forget about
+your murder after a while or something kekw)
+
+-maybe some kinda idle mechanic relating to what you can do on the surface level? have a garden or some shit that
+you can put seeds you find in to sell the flowers for money or brew potions or whatever the fuck

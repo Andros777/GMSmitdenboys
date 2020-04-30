@@ -5,7 +5,7 @@
     "name": "obj_TestNPC",
     "eventList": [
         {
-            "id": "5ada2eb9-0345-4148-bc94-9185c2e265bb",
+            "id": "3669a044-6a2e-4ae5-923c-7eba2ecb6110",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -23,6 +23,14 @@
             "mvc": "1.0",
             "objectId": "2bb315b3-86e7-4f6c-83c2-36f1de53970f",
             "propertyId": "a7200b8c-39bb-407a-a2b6-eff222673145",
+            "value": "True"
+        },
+        {
+            "id": "d7d69385-efdc-4402-b207-ad78bcaa5f34",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "2bb315b3-86e7-4f6c-83c2-36f1de53970f",
+            "propertyId": "5223418d-02a4-466e-bd3f-c60694c18ba3",
             "value": "True"
         }
     ],

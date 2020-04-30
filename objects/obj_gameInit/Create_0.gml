@@ -2,12 +2,18 @@
 // You can write your code in this editor
 draw_set_font(fn_Arial);
 
-//changes seed
+//changes seed and randomizes rooms
 randomize();
 
+scr_dungeonRandomize();
+
+
 //sets global variables
+global.currentRoomList = randomRoomList;
+global.roomCounter = 0;
+global.starterRoom = ds_list_find_value(global.currentRoomList, 0);
+global.nextRoom = ds_list_find_value(global.currentRoomList, (1 + global.roomCounter));
 global.keydoor = 0;
-global.currentgameroom = room;
 global.gamePaused = false;
 global.textSpeed = .75;
 
