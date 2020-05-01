@@ -1,7 +1,7 @@
--create a number of rooms to start with
+- create working enemy and working boss enemy
 
--create an empty list that gets filled with rooms in a random order, this determines
-the order of rooms and the type of rooms that you encounter during the run
+- populate rooms
 
--this list will be filled randomly at the start of each run to create a different experience
-each time
+- rework melee combat to follow mouse cursor
+
+- implement first item drop
