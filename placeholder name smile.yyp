@@ -311,6 +311,14 @@
             }
         },
         {
+            "Key": "58094f32-ce9a-47a5-a0f1-4cd8cbeef513",
+            "Value": {
+                "id": "7be5857d-c673-42ce-aa8a-2ada3af7707a",
+                "resourcePath": "objects\\obj_wpnTrustySword\\obj_wpnTrustySword.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "59ee2c8e-ca78-4c6f-9544-2a1ae16d6316",
             "Value": {
                 "id": "9a949de8-a616-4f0d-a774-309b9d477eb5",
@@ -356,6 +364,14 @@
                 "id": "dffd9640-1dc5-41d7-996f-1d4409c63f85",
                 "resourcePath": "scripts\\scr_playerStateLocked\\scr_playerStateLocked.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6bbc589b-f6af-4c27-83df-58da0c3b3f69",
+            "Value": {
+                "id": "bed481ba-bfe0-49c5-b3b4-1e021ba87c53",
+                "resourcePath": "views\\6bbc589b-f6af-4c27-83df-58da0c3b3f69.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -511,6 +527,14 @@
             }
         },
         {
+            "Key": "93f082d4-2520-41ff-ac7e-a23b2930175b",
+            "Value": {
+                "id": "c183773a-0fd0-4526-87e3-7ce592c4f2a9",
+                "resourcePath": "sprites\\spr_moneyUI\\spr_moneyUI.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "94b352ce-f565-4a97-94a4-97e152fd561d",
             "Value": {
                 "id": "37a97aed-64d8-4637-90e2-cf81a33eaf04",
@@ -522,7 +546,15 @@
             "Key": "95325224-319d-4eef-aca2-3ba132a20d8f",
             "Value": {
                 "id": "8423d5e5-bd3e-4517-b806-2cec22bfeb9d",
-                "resourcePath": "sprites\\spr_Coin\\spr_Coin.yy",
+                "resourcePath": "sprites\\spr_goldenCoin\\spr_goldenCoin.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "98cb7f64-ff95-4c04-854c-03ebc97aef1a",
+            "Value": {
+                "id": "52f14d8a-330a-4797-8dac-d188791ac841",
+                "resourcePath": "sprites\\spr_wpnTrustySword\\spr_wpnTrustySword.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -719,6 +751,14 @@
             }
         },
         {
+            "Key": "c6559c0c-deb4-46a1-b5a0-9ded19cc4e1c",
+            "Value": {
+                "id": "c75968dd-f853-4378-b95a-7d05a425d0bd",
+                "resourcePath": "shaders\\sh_TransparentWalls\\sh_TransparentWalls.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "c89f919b-e18d-4909-b803-2fe8bcc1b00e",
             "Value": {
                 "id": "fba2decd-48b6-4f85-b96c-c771613fb3df",
@@ -882,7 +922,7 @@
             "Key": "f6dcf39c-4295-4b08-8e89-c83bf222210c",
             "Value": {
                 "id": "81b6267c-be90-4e23-b03e-eaa644f2b86a",
-                "resourcePath": "objects\\obj_Coin\\obj_Coin.yy",
+                "resourcePath": "objects\\obj_goldenCoin\\obj_goldenCoin.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -941,12 +981,12 @@
         "f58abfcc-e66b-4289-af49-550771bdcb2b",
         "92597022-e178-4c61-aa44-8d35f09fb5c6",
         "61d7e4f2-86e9-4f64-8f3c-75ef939e1a6d",
+        "94b352ce-f565-4a97-94a4-97e152fd561d",
+        "52499410-aa4e-4dcc-be3d-a2fdda3eeea7",
         "54edf1f7-b29d-4641-8d3a-ed84cb55205b",
         "3cc790de-44d2-465e-b1c5-b79cdfbd140e",
         "a348a78e-a3d4-49d2-8e92-6f958649fcdc",
-        "882d1d20-8e95-4c61-87f2-6d6e7f8b593f",
-        "94b352ce-f565-4a97-94a4-97e152fd561d",
-        "52499410-aa4e-4dcc-be3d-a2fdda3eeea7"
+        "882d1d20-8e95-4c61-87f2-6d6e7f8b593f"
     ],
     "tutorial": ""
 }

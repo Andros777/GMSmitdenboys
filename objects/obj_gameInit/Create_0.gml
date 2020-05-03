@@ -9,6 +9,9 @@ scr_dungeonRandomize();
 
 
 //sets global variables
+global.playerMoney = 0;
+global.playerWeapon = 0;
+global.weaponEquipped = false;
 global.playerHealth = 2.5;
 global.playerHealthMax = 3;
 global.currentRoomList = randomRoomList;

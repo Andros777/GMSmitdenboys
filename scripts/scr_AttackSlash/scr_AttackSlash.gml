@@ -1,5 +1,6 @@
 if (sprite_index != spr_PlayerSlashAttack){
 	sprite_index = spr_PlayerSlashAttack;
+	direction = point_direction(x, y, mouse_x, mouse_y);
 	localFrame = 0;
 	image_index = 0;
 	
