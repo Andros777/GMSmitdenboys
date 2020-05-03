@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "40462758-c999-46b2-bcd7-45463a6f8cdb",
+            "Value": {
+                "id": "aad97a82-76d8-47da-a3ae-9c8210904001",
+                "resourcePath": "sprites\\spr_caveplaceholder\\spr_caveplaceholder.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "408d1218-0939-4f0f-8022-d03f47984046",
             "Value": {
                 "id": "6a3e7f82-adcf-4a46-a791-1296feb2d829",
@@ -780,6 +788,14 @@
                 "id": "be9e6cfb-c218-460c-8d79-7eaa197cf992",
                 "resourcePath": "sprites\\spr_Apple\\spr_Apple.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cf7d6c41-cbd6-464d-afbf-aecbdd79a074",
+            "Value": {
+                "id": "4025455e-a837-4e4f-85db-4a0943af4952",
+                "resourcePath": "tilesets\\tl_cavePlaceholder\\tl_cavePlaceholder.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
